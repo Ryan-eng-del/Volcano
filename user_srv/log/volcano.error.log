@@ -1,0 +1,2 @@
+{"level":"ERROR","time":"2024-06-24T17:06:37.622+0800","caller":"test/zap_test.go:25","msg":"testing"}
+{"level":"WARN","time":"2024-06-24T17:06:37.622+0800","caller":"test/zap_test.go:26","msg":"testing"}

@@ -1,0 +1,7 @@
+[base]
+    max_size=100
+    max_age=24
+    max_backups=3
+    debug_file_name="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/log/volcano.debug.log"
+    info_file_name="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/log/volcano.info.log"
+    error_file_name="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/log/volcano.error.log"

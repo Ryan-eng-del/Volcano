@@ -1,0 +1,22 @@
+[base]
+    host="192.168.0.104"
+    port=8849
+    namspace="3d6a2af2-3f81-4819-815b-bb375034092b"
+    user="nacos"
+    password="nacos"
+    dataid="user_srv_dev.json"
+    group="dev"
+    log_dir="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/nacos_dir/nacos/log"
+    cache_dir="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/nacos_dir/nacos/cache"
+    max_age=24
+    log_level="debug"
+    rotate_time="1h"
+    time_out=5000
+    not_load_cache_at_start=true
+    max_backup=3
+
+
+
+
+
+

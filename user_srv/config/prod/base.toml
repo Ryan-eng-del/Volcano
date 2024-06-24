@@ -1,0 +1,2 @@
+[base]
+   nacos_config_file="config/dev/nacos.toml"
