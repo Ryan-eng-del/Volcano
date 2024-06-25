@@ -24,6 +24,8 @@ var ErrorNacosInit = errors.New("nacos error initializing")
 
 func (n *Nacos) Init() error {
 	c := n.conf
+	log.Printf("[INFO] Nacos Configuration %+v", n)
+
 	if c.Host == "" || c.Port == 0 {
 		log.Printf("[ERROR] NacoMapConfInstance host and port must be specified")
 		return ErrorNacosInit
@@ -67,7 +69,6 @@ func (n *Nacos) Init() error {
 			log.Printf("[ERROR] lib.nacos.Init.GetConfig: %s", err.Error())
 			return err
 		}
-
 	if err := json.Unmarshal([]byte(content), &config.ServerConfInstance); err != nil {
 		log.Printf("[ERROR] lib.nacos.Init.Unmarshal: %s", err.Error())
 	}

@@ -6,19 +6,18 @@ var BaseMapConfInstance = &BaseMapConf{}
 var NacoMapConfInstance = &NacosMapConf{}
 var ServerConfInstance = &ServerConfig{}
 
-
 type BaseMapConf struct {
   Base BaseConf `mapstructure:"base"`
 }
 
 type BaseConf struct {
-	NacosConfigFile string `mapstructure:"nacos_config_file"`
+	Addr string `mapstructure:"addr"`
+	Port int `mapstructure:"port"`
 }
 
 type NacosMapConf struct {
   Base NacosConf `mapstructure:"base"`
 }
-
 
 type NacosConf struct {
 	Host      string `mapstructure:"host"`
@@ -54,6 +53,11 @@ type MysqlConfig struct{
 type ConsulConfig struct{
 	Host string `mapstructure:"host" json:"host"`
 	Port int    `mapstructure:"port" json:"port"`
+	Timeout string `mapstructure:"timeout" json:"timeout"`
+	Interval string `mapstructure:"interval" json:"interval"`
+	DeregisterCriticalServiceAfter string `mapstructure:"deregister_critical_service_after" json:"deregister_critical_service_after"`	
+	Tags []string `mapstructure:"tags" json:"tags"`
+
 }
 
 type ServerConfig struct{

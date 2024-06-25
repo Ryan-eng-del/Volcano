@@ -1,2 +1,4 @@
 {"level":"ERROR","time":"2024-06-24T17:06:37.622+0800","caller":"test/zap_test.go:25","msg":"testing"}
 {"level":"WARN","time":"2024-06-24T17:06:37.622+0800","caller":"test/zap_test.go:26","msg":"testing"}
+{"level":"ERROR","time":"2024-06-25T16:23:02.494+0800","caller":"lib/mysql.go:41","msg":"lib.mysql.Init.Open: invalid DSN: did you forget to escape a param value?"}
+{"level":"ERROR","time":"2024-06-25T16:24:33.453+0800","caller":"lib/consul.go:54","msg":"lib.consul.Register.NewClient error: Put \"http://192.168.2.23:3307/v1/agent/service/register\": net/http: HTTP/1.x transport connection broken: malformed HTTP response \"I\\x00\\x00\\x00\""}

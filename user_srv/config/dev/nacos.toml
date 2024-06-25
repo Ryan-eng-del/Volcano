@@ -1,11 +1,11 @@
 [base]
-    host="192.168.0.104"
-    port=8849
-    namspace="3d6a2af2-3f81-4819-815b-bb375034092b"
+    host="0.0.0.0"
+    port=8848
+    namespace="5a9dd777-c218-4532-a308-a3eddbec1c5a"
     user="nacos"
     password="nacos"
     dataid="user_srv_dev.json"
-    group="dev"
+    group="DEFAULT_GROUP"
     log_dir="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/nacos_dir/nacos/log"
     cache_dir="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/nacos_dir/nacos/cache"
     max_age=24

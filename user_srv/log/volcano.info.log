@@ -1,1 +1,24 @@
 {"level":"INFO","time":"2024-06-24T17:06:37.621+0800","caller":"test/zap_test.go:24","msg":"testing"}
+{"level":"INFO","time":"2024-06-25T16:23:02.494+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia/Shanghai"}
+{"level":"INFO","time":"2024-06-25T16:23:02.494+0800","caller":"internal/gormCustomLogger.go:40","msg":"_com_mysql_Error","message":"failed to initialize database, got error %v","values":"invalid DSN: did you forget to escape a param value?"}
+{"level":"INFO","time":"2024-06-25T16:24:33.308+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:30:09.553+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:30:09.634+0800","caller":"initialize/grpc.go:30","msg":"GRPC Server listening on :54884"}
+{"level":"INFO","time":"2024-06-25T16:31:51.909+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:31:51.956+0800","caller":"initialize/grpc.go:32","msg":"GRPC Server listening on :54934"}
+{"level":"INFO","time":"2024-06-25T16:33:57.878+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:33:57.927+0800","caller":"initialize/grpc.go:32","msg":"GRPC Server listening on :55002"}
+{"level":"INFO","time":"2024-06-25T16:34:27.254+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:34:27.309+0800","caller":"initialize/grpc.go:32","msg":"GRPC Server listening on 192.168.2.23:55025"}
+{"level":"INFO","time":"2024-06-25T16:59:52.389+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T16:59:52.504+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:56843"}
+{"level":"INFO","time":"2024-06-25T17:01:30.036+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T17:01:30.089+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:56940"}
+{"level":"INFO","time":"2024-06-25T17:03:16.410+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T17:03:16.525+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:57080"}
+{"level":"INFO","time":"2024-06-25T17:06:01.947+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T17:06:02.022+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:57223"}
+{"level":"INFO","time":"2024-06-25T17:06:04.203+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-25T17:06:32.621+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-25T17:06:32.668+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:57251"}
+{"level":"INFO","time":"2024-06-25T17:08:06.738+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}

@@ -38,9 +38,17 @@ func initModules(mode string, confPath string) error {
   viperLib := lib.NewViper()
 	viperLib.Init()
 
+	// unmarshal server config
+	baseConfPath := fmt.Sprintf("%s/%s/%s", confPath, mode, ServerUnmarshalFile)
+	if err := viperLib.Unmarshal(baseConfPath, config.BaseMapConfInstance, ServerUnmarshalCaption); err != nil {
+		return err
+	}
+
 	// unmarshal nacos config
-	nacosConfPath := fmt.Sprintf("%s/%s/%s", confPath, mode, NacosUnmarshalCaption)
-	viperLib.Unmarshal(nacosConfPath, config.NacoMapConfInstance, NacosUnmarshalCaption)
+	nacosConfPath := fmt.Sprintf("%s/%s/%s", confPath, mode, NacosUnmarshalFile)
+	if err := viperLib.Unmarshal(nacosConfPath, config.NacoMapConfInstance, NacosUnmarshalCaption); err != nil {
+		return err
+	}
 
 	// Init Nacos
 	nacosLib := lib.NewNacos(config.NacoMapConfInstance.Base)
