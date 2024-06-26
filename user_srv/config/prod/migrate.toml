@@ -1,0 +1,4 @@
+[base]
+  database_name="volcano_user_srv"
+  migrate_link="root:123456@tcp(127.0.0.1:3307)/volcano_user_srv?charset=utf8&parseTime=true&loc=Asia%2FShanghai"
+  migrate_path="/Users/max/Documents/coding/Backend/Golang/Personal/volcano/user_srv/migration"
