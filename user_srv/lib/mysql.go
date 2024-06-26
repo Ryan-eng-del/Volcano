@@ -2,7 +2,6 @@ package lib
 
 import (
 	"fmt"
-	"log"
 	"time"
 
 	"go.uber.org/zap"
@@ -10,7 +9,6 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"volcano.user_srv/config"
-	"volcano.user_srv/internal"
 )
 
 type Mysql struct {
@@ -28,13 +26,12 @@ func (m *Mysql) Init() error {
 	c := m.conf
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8mb4&parseTime=True&loc=%s",
 		c.User, c.Password, c.Host, c.Port, c.Name, c.TimeLocation)
-	log.Println(dsn)
-	zap.S().Infof("connect dsn: %s", dsn)
+	zap.S().Infof("Connect GORM DSN: %s", dsn)
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
 			SingularTable: true,
 		},
-		Logger: &internal.DefaultGormLogger,
+		Logger: &DefaultGormLogger,
 	}); 
 	
 	if  err != nil {

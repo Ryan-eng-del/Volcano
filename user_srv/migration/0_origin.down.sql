@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `this table is't exits`;

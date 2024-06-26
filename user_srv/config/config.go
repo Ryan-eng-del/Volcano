@@ -5,6 +5,18 @@ package config
 var BaseMapConfInstance = &BaseMapConf{}
 var NacoMapConfInstance = &NacosMapConf{}
 var ServerConfInstance = &ServerConfig{}
+var MigrateMapConfInstance = &MigrateMapConf{}
+
+
+type MigrateMapConf struct {
+	Base MigrateConf `mapstructure:"base"`
+}
+
+type MigrateConf struct {
+	DatabaseName string `mapstructure:"database_name"`
+	MigrateLink string `mapstructure:"migrate_link"`
+	MigratePath string `mapstructure:"migrate_path"`
+}
 
 type BaseMapConf struct {
   Base BaseConf `mapstructure:"base"`

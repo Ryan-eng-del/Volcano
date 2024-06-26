@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
-	"volcano.user_srv/cmd"
 	"volcano.user_srv/config"
+	"volcano.user_srv/utils"
 )
 
 func RegisterGrpc() error {
@@ -21,7 +21,7 @@ func RegisterGrpc() error {
 	
 	// proto.RegisterUserServer(server, &handler.UserServer{})
 
-	lis, err := net.Listen("tcp", fmt.Sprintf("%s:%d", serverConf.Addr, cmd.GetCmdPort()))
+	lis, err := net.Listen("tcp", fmt.Sprintf("%s:%d", serverConf.Addr, utils.GetFreePort()))
 	if err != nil {
 		zap.S().Errorf("initialize.grpc.RegisterGrpc.Listen: %v", err)
 		return err
@@ -39,7 +39,7 @@ func RegisterGrpc() error {
 \__/  \____/\____/\____/\_/ \|\_/  \|\____/
                                            `)
 
-		zap.S().Infof("GRPC Server listening on %s:%d", serverConf.Addr, cmd.GetCmdPort())
+		zap.S().Infof("GRPC Server listening on %s:%d", serverConf.Addr, utils.GetFreePort())
 		err = server.Serve(lis)
 		if err != nil {
 			zap.S().Errorf("initialize.grpc.RegisterGrpc.Serve: %v", err)

@@ -22,3 +22,42 @@
 {"level":"INFO","time":"2024-06-25T17:06:32.621+0800","caller":"lib/mysql.go:32","msg":"connect dsn: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
 {"level":"INFO","time":"2024-06-25T17:06:32.668+0800","caller":"initialize/grpc.go:40","msg":"GRPC Server listening on 192.168.2.23:57251"}
 {"level":"INFO","time":"2024-06-25T17:08:06.738+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:05:21.226+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:05:21.352+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:64613"}
+{"level":"INFO","time":"2024-06-26T11:07:38.287+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:07:44.997+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:07:45.046+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:64688"}
+{"level":"INFO","time":"2024-06-26T11:08:01.308+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:08:15.033+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:08:15.075+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:64704"}
+{"level":"INFO","time":"2024-06-26T11:09:51.476+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:09:54.228+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:09:54.276+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:64759"}
+{"level":"INFO","time":"2024-06-26T11:11:38.219+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:12:48.043+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:12:48.090+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:64840"}
+{"level":"INFO","time":"2024-06-26T11:19:27.529+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:19:32.189+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:19:32.286+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:65493"}
+{"level":"INFO","time":"2024-06-26T11:20:58.727+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:21:01.538+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:21:01.588+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:49153"}
+{"level":"INFO","time":"2024-06-26T11:21:20.307+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:21:22.771+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:21:22.814+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:49187"}
+{"level":"INFO","time":"2024-06-26T11:21:40.605+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:21:43.123+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:21:43.153+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:49202"}
+{"level":"INFO","time":"2024-06-26T11:22:23.286+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:22:28.185+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:22:28.238+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:49247"}
+{"level":"INFO","time":"2024-06-26T11:24:26.942+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T11:59:55.544+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T11:59:55.629+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:50368"}
+{"level":"INFO","time":"2024-06-26T12:00:56.608+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T15:22:33.422+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T15:22:33.522+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:58089"}
+{"level":"INFO","time":"2024-06-26T15:22:39.014+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}
+{"level":"INFO","time":"2024-06-26T18:33:19.595+0800","caller":"lib/mysql.go:29","msg":"Connect GORM DSN: root:123456@tcp(192.168.2.23:3307)/volcano_user_srv?charset=utf8mb4&parseTime=True&loc=Asia%2FShanghai"}
+{"level":"INFO","time":"2024-06-26T18:33:19.719+0800","caller":"initialize/grpc.go:42","msg":"GRPC Server listening on 192.168.2.23:49243"}
+{"level":"INFO","time":"2024-06-26T18:33:21.954+0800","caller":"lib/consul.go:77","msg":"Consul DeRegister Successfully~"}

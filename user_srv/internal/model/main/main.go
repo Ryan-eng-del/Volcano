@@ -9,7 +9,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
-	"volcano.user_srv/model"
+	"volcano.user_srv/internal/model"
 )
 
 

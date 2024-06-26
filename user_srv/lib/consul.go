@@ -7,8 +7,8 @@ import (
 	uuid "github.com/satori/go.uuid"
 
 	"go.uber.org/zap"
-	"volcano.user_srv/cmd"
 	"volcano.user_srv/config"
+	"volcano.user_srv/utils"
 )
 
 
@@ -42,7 +42,7 @@ func (c *Consul) Register() error {
 	}
 	
 	check := &api.AgentServiceCheck{
-		GRPC:                           fmt.Sprintf("%s:%d", serverConf.Addr,cmd.GetCmdPort()),
+		GRPC:                           fmt.Sprintf("%s:%d", serverConf.Addr,utils.GetFreePort()),
 		Timeout:                        "5s",
 		Interval:                       "5s",
 		DeregisterCriticalServiceAfter: "15s",
@@ -53,7 +53,7 @@ func (c *Consul) Register() error {
 	serviceID := uuid.NewV4().String()
 	c.client = client
 	registration.ID = serviceID
-	registration.Port = cmd.GetCmdPort()
+	registration.Port = utils.GetFreePort()
 	registration.Tags = consulConf.Tags
 	registration.Address = serverConf.Addr
 	registration.Check = check
